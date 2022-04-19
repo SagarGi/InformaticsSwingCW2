@@ -65,4 +65,7 @@ public class ElectricCar extends Car {
     {
         return isSold;
     }
+    public String buyElectricCar(){
+        return "Congratulation !!! You have successfully bought an Electric Car.";
+    }
 }

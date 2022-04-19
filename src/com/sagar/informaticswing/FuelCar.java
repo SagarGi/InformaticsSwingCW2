@@ -35,4 +35,8 @@ public class FuelCar extends Car {
     {
         return mileage;
     }
+    
+    public String purchaseFuelCar(){
+        return "Congratulation !! You have Successfully purchased a Fuel Car.";
+    }
 }
