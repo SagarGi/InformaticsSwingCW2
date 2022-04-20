@@ -15,20 +15,13 @@ public class ElectricCar extends Car {
     private String purchaseDate;
     private String range;
     private String rechargeTime;
-    private boolean isBought;
-    private boolean isSold;
+    private boolean isBought = false;
+    private boolean isSold = false;
     
     public ElectricCar(String carID,String carColor,String carName,String carBrand,String carPrice,String batteryCapacity)
     {
         super(carID,carName,carBrand,carPrice,carColor);//Calling the constructor of parent class Car
         this.batteryCapacity = batteryCapacity;
-        this.customerName = "";
-        this.batteryWarranty = "0";
-        this.purchaseDate = "";
-        this.range = "";
-        this.rechargeTime = "0";
-        this.isBought = false;
-        this.isSold = false;
         
     }
     
@@ -56,16 +49,55 @@ public class ElectricCar extends Car {
     {
         return rechargeTime;
     }
-    public boolean getIsBought()
-    {
-        return isBought;
+    
+    public void setCustomerName(String customerName){
+        this.customerName = customerName;
     }
     
-    public boolean getIsSold()
-    {
-        return isSold;
+    public void setBatteryWarrenty(String batteryWarrenty){
+        this.batteryWarranty = batteryWarrenty;
     }
-    public String buyElectricCar(){
+    
+    public void setPurchasedDate(String purchasedDate){
+        this.purchaseDate = purchasedDate;
+    }
+    
+    public void setRange(String range){
+        this.range = range;
+    }
+    
+    public void setRechargeTime(String rechargeTime){
+        this.rechargeTime = rechargeTime; 
+    }
+    public String buyElectricCar(String customerName, String batteryWarrenty, String purchasedDate, String range, String rechargeTime){
+        if(isBought == false){
+            this.setCustomerName(customerName);
+            this.setBatteryWarrenty(batteryWarrenty);
+            this.setPurchasedDate(purchasedDate);
+            this.setRange(range);
+            this.setRechargeTime(rechargeTime);
+            this.isBought = true;
+            this.isSold = false;
+        }
+        else {
+            return "Opps !!! This Electric car is already bought by someone else.";
+        }
         return "Congratulation !!! You have successfully bought an Electric Car.";
+    }
+    
+    public String sellElectricCar(String customerName){
+        if(isSold == false){
+            this.customerName = customerName;
+            this.setBatteryWarrenty("");
+            this.setPurchasedDate("");
+            this.setRange("");
+            this.setRechargeTime("");
+            this.isBought = false;
+            this.isSold = true;
+
+        }else{
+            return "The car was already sold!!";
+        }
+        return "Electric car is sold successfully !!";
     }
 }
