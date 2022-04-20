@@ -49,50 +49,59 @@
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
               <Component id="jPanel2" alignment="0" max="32767" attributes="0"/>
-              <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace min="-2" pref="79" max="-2" attributes="0"/>
+              <Group type="102" alignment="1" attributes="0">
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="carID" alignment="0" max="32767" attributes="0"/>
-                          <Component id="fuelType" alignment="0" max="32767" attributes="0"/>
-                          <Component id="carColor" max="32767" attributes="0"/>
-                          <Component id="transmissionType" alignment="0" max="32767" attributes="0"/>
-                          <Component id="batteryWarrenty" min="-2" pref="172" max="-2" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="79" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="carID" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="fuelType" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="carColor" max="32767" attributes="0"/>
+                                  <Component id="transmissionType" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="batteryWarrenty" min="-2" pref="172" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="purchaseDate" min="-2" pref="172" max="-2" attributes="0"/>
+                              <Component id="carid" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="carcolor" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="fueltype" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="transmissiontype" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="batterywarrenty" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel17" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
                       </Group>
-                      <Component id="purchaseDate" min="-2" pref="172" max="-2" attributes="0"/>
-                      <Component id="addFuelCar" min="-2" pref="172" max="-2" attributes="0"/>
-                      <Component id="sellElectricCar" min="-2" pref="172" max="-2" attributes="0"/>
-                      <Component id="carid" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="carcolor" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="fueltype" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="transmissiontype" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="batterywarrenty" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="jLabel17" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="addFuelCar" max="32767" attributes="0"/>
+                              <Component id="sellElectricCar" pref="171" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
                   </Group>
                   <EmptySpace pref="62" max="32767" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                      <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="clear" max="32767" attributes="0"/>
                           <Component id="carName" alignment="0" max="32767" attributes="0"/>
                           <Component id="carPrice" alignment="0" max="32767" attributes="0"/>
                           <Component id="noOfSeats" alignment="0" max="32767" attributes="0"/>
                           <Component id="cusName" alignment="0" max="32767" attributes="0"/>
                           <Component id="range" alignment="0" max="32767" attributes="0"/>
-                          <Component id="bookedDate" alignment="1" max="32767" attributes="0"/>
-                          <Component id="addElectricCar" alignment="1" max="32767" attributes="0"/>
-                          <Component id="buyElectricCar" alignment="0" min="-2" pref="172" max="-2" attributes="0"/>
+                          <Component id="bookedDate" alignment="1" pref="172" max="32767" attributes="0"/>
+                          <Component id="carname" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="carprice" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="noofseats" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="customername" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                              <Component id="ran_ge" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jLabel18" min="-2" max="-2" attributes="0"/>
+                          <Component id="addElectricCar" alignment="0" max="32767" attributes="0"/>
                       </Group>
-                      <Component id="clear" min="-2" pref="180" max="-2" attributes="0"/>
-                      <Component id="carname" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="carprice" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="noofseats" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="customername" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
-                          <Component id="ran_ge" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <Component id="jLabel18" min="-2" max="-2" attributes="0"/>
+                      <Component id="buyElectricCar" alignment="1" min="-2" pref="172" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Component id="rechargetime" min="-2" max="-2" attributes="0"/>
                       <Group type="102" alignment="0" attributes="0">
@@ -103,14 +112,14 @@
                       <Component id="distributorname" min="-2" max="-2" attributes="0"/>
                       <Component id="carbrand" min="-2" max="-2" attributes="0"/>
                       <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="carBrand" max="32767" attributes="0"/>
+                          <Component id="carBrand" pref="172" max="32767" attributes="0"/>
                           <Component id="distributorName" max="32767" attributes="0"/>
                           <Component id="mileage" max="32767" attributes="0"/>
                           <Component id="batteryCapacity" max="32767" attributes="0"/>
                           <Component id="rechargeTime" max="32767" attributes="0"/>
-                          <Component id="purchaseFuelCar" alignment="0" max="32767" attributes="0"/>
-                          <Component id="displayInfo" alignment="0" min="-2" pref="172" max="-2" attributes="0"/>
                       </Group>
+                      <Component id="displayInfo" min="-2" pref="158" max="-2" attributes="0"/>
+                      <Component id="purchaseFuelCar" min="-2" pref="158" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace min="-2" pref="79" max="-2" attributes="0"/>
               </Group>
@@ -120,95 +129,105 @@
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
                   <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" attributes="0">
-                          <Component id="carid" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="carID" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="carcolor" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
-                          <Component id="carColor" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="fueltype" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
-                          <Component id="fuelType" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="transmissiontype" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="transmissionType" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
-                          <Component id="batterywarrenty" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="batteryWarrenty" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
-                          <Component id="jLabel17" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="purchaseDate" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
-                          <Component id="addFuelCar" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="sellElectricCar" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
                           <Component id="carbrand" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="carBrand" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="carBrand" min="-2" pref="30" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
                           <Component id="distributorname" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
-                          <Component id="distributorName" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                          <Component id="distributorName" min="-2" pref="29" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
                           <Component id="mile_age" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="mileage" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                          <Component id="mileage" min="-2" pref="30" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
                           <Component id="batterycapacity" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="batteryCapacity" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                          <Component id="batteryCapacity" min="-2" pref="31" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
                           <Component id="rechargetime" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="rechargeTime" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="105" pref="105" max="-2" attributes="0"/>
-                          <Component id="purchaseFuelCar" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="displayInfo" min="-2" max="-2" attributes="0"/>
+                          <Component id="rechargeTime" min="-2" pref="34" max="-2" attributes="0"/>
                       </Group>
-                      <Group type="102" attributes="0">
-                          <Component id="carname" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="carname" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="carName" min="-2" pref="30" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="carprice" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                                  <Component id="carPrice" min="-2" pref="30" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="noofseats" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                                  <Component id="noOfSeats" min="-2" pref="30" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="customername" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="cusName" min="-2" pref="31" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="ran_ge" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="range" min="-2" pref="32" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="carid" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="carID" min="-2" pref="30" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="carcolor" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                                  <Component id="carColor" min="-2" pref="30" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="fueltype" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                                  <Component id="fuelType" min="-2" pref="30" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="transmissiontype" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="transmissionType" min="-2" pref="31" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="batterywarrenty" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="batteryWarrenty" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="carName" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="carprice" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
-                          <Component id="carPrice" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="noofseats" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
-                          <Component id="noOfSeats" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="customername" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel18" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel17" alignment="1" min="-2" max="-2" attributes="0"/>
+                          </Group>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="cusName" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
-                          <Component id="ran_ge" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="range" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="jLabel18" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="bookedDate" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
-                          <Component id="addElectricCar" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="buyElectricCar" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Component id="clear" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="purchaseDate" pref="37" max="32767" attributes="0"/>
+                              <Component id="bookedDate" max="32767" attributes="0"/>
+                          </Group>
                       </Group>
                   </Group>
-                  <EmptySpace min="0" pref="40" max="32767" attributes="0"/>
+                  <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="addFuelCar" min="-2" pref="38" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="addElectricCar" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+                          <Component id="purchaseFuelCar" alignment="3" min="-2" pref="36" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="sellElectricCar" min="-2" pref="35" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="buyElectricCar" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                          <Component id="displayInfo" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="clear" min="-2" pref="35" max="-2" attributes="0"/>
+                  <EmptySpace pref="20" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -234,8 +253,8 @@
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
-                      <Component id="jLabel1" min="-2" pref="64" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="jLabel1" min="-2" pref="47" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="1" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -285,10 +304,9 @@
         <Component class="javax.swing.JComboBox" name="purchaseDate">
           <Properties>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-              <StringArray count="3">
-                <StringItem index="0" value="&quot;&quot;"/>
-                <StringItem index="1" value="2021-11-11"/>
-                <StringItem index="2" value="2022-02-02"/>
+              <StringArray count="2">
+                <StringItem index="0" value="2021-11-11"/>
+                <StringItem index="1" value="2022-02-02"/>
               </StringArray>
             </Property>
           </Properties>
@@ -299,11 +317,9 @@
         <Component class="javax.swing.JComboBox" name="bookedDate">
           <Properties>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-              <StringArray count="4">
-                <StringItem index="0" value="Item 1"/>
-                <StringItem index="1" value="Item 2"/>
-                <StringItem index="2" value="Item 3"/>
-                <StringItem index="3" value="Item 4"/>
+              <StringArray count="2">
+                <StringItem index="0" value="2021-11-5"/>
+                <StringItem index="1" value="2012-02-04"/>
               </StringArray>
             </Property>
           </Properties>
@@ -369,86 +385,137 @@
         </Component>
         <Component class="javax.swing.JLabel" name="carid">
           <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Liberation Sans" size="12" style="0"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="carID:"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="carname">
           <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Liberation Sans" size="12" style="0"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="Car Name:"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="carbrand">
           <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Liberation Sans" size="12" style="0"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="Car Brand:"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="carcolor">
           <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Liberation Sans" size="12" style="0"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="Car Color:"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="carprice">
           <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Liberation Sans" size="12" style="0"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="Car Price:"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="distributorname">
           <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Liberation Sans" size="12" style="0"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="Distributor Name:"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="fueltype">
           <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Liberation Sans" size="12" style="0"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="Fuel Type:"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="noofseats">
           <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Liberation Sans" size="12" style="0"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="Number of Seats:"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="mile_age">
           <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Liberation Sans" size="12" style="0"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="Mileage:"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="transmissiontype">
           <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Liberation Sans" size="12" style="0"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="Transmission Type:"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="customername">
           <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Liberation Sans" size="12" style="0"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="Customer Name:"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="batterycapacity">
           <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Liberation Sans" size="12" style="0"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="Battery Capacity:"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="batterywarrenty">
           <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Liberation Sans" size="12" style="0"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="Battery Warranty:"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="ran_ge">
           <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Liberation Sans" size="12" style="0"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="Range:"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="rechargetime">
           <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Liberation Sans" size="12" style="0"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="Recharge Time:"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel17">
           <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Liberation Sans" size="12" style="0"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="Purchase date:"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel18">
           <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Liberation Sans" size="12" style="0"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="Booked Date:"/>
           </Properties>
         </Component>

@@ -66,4 +66,22 @@ public class Car {
         this.carName = carName;
     }
     
+    public void display() 
+    {
+        System.out.println("CarID is:"+carID);
+        System.out.println("Car Name:"+carName);
+        System.out.println("Car Brand:"+carBrand);
+        System.out.println("Car Price:"+carPrice);
+        /* If the car color  is not empty string 
+        then the instance variable car color will be printed out.*/
+        if(carColor == "") 
+        {
+            System.out.println("Car color is empty");
+        }
+        else
+        {
+            System.out.println("Car Color:"+carColor);
+        }
+    }
+    
 }

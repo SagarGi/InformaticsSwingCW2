@@ -90,13 +90,13 @@ public class GUIDemo extends javax.swing.JFrame {
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 1, Short.MAX_VALUE))
         );
 
-        purchaseDate.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "\"\"", "2021-11-11", "2022-02-02" }));
+        purchaseDate.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "2021-11-11", "2022-02-02" }));
 
-        bookedDate.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        bookedDate.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "2021-11-5", "2012-02-04" }));
 
         addFuelCar.setText("Add Fuel Car");
         addFuelCar.addActionListener(new java.awt.event.ActionListener() {
@@ -147,38 +147,55 @@ public class GUIDemo extends javax.swing.JFrame {
             }
         });
 
+        carid.setFont(new java.awt.Font("Liberation Sans", 0, 12)); // NOI18N
         carid.setText("carID:");
 
+        carname.setFont(new java.awt.Font("Liberation Sans", 0, 12)); // NOI18N
         carname.setText("Car Name:");
 
+        carbrand.setFont(new java.awt.Font("Liberation Sans", 0, 12)); // NOI18N
         carbrand.setText("Car Brand:");
 
+        carcolor.setFont(new java.awt.Font("Liberation Sans", 0, 12)); // NOI18N
         carcolor.setText("Car Color:");
 
+        carprice.setFont(new java.awt.Font("Liberation Sans", 0, 12)); // NOI18N
         carprice.setText("Car Price:");
 
+        distributorname.setFont(new java.awt.Font("Liberation Sans", 0, 12)); // NOI18N
         distributorname.setText("Distributor Name:");
 
+        fueltype.setFont(new java.awt.Font("Liberation Sans", 0, 12)); // NOI18N
         fueltype.setText("Fuel Type:");
 
+        noofseats.setFont(new java.awt.Font("Liberation Sans", 0, 12)); // NOI18N
         noofseats.setText("Number of Seats:");
 
+        mile_age.setFont(new java.awt.Font("Liberation Sans", 0, 12)); // NOI18N
         mile_age.setText("Mileage:");
 
+        transmissiontype.setFont(new java.awt.Font("Liberation Sans", 0, 12)); // NOI18N
         transmissiontype.setText("Transmission Type:");
 
+        customername.setFont(new java.awt.Font("Liberation Sans", 0, 12)); // NOI18N
         customername.setText("Customer Name:");
 
+        batterycapacity.setFont(new java.awt.Font("Liberation Sans", 0, 12)); // NOI18N
         batterycapacity.setText("Battery Capacity:");
 
+        batterywarrenty.setFont(new java.awt.Font("Liberation Sans", 0, 12)); // NOI18N
         batterywarrenty.setText("Battery Warranty:");
 
+        ran_ge.setFont(new java.awt.Font("Liberation Sans", 0, 12)); // NOI18N
         ran_ge.setText("Range:");
 
+        rechargetime.setFont(new java.awt.Font("Liberation Sans", 0, 12)); // NOI18N
         rechargetime.setText("Recharge Time:");
 
+        jLabel17.setFont(new java.awt.Font("Liberation Sans", 0, 12)); // NOI18N
         jLabel17.setText("Purchase date:");
 
+        jLabel18.setFont(new java.awt.Font("Liberation Sans", 0, 12)); // NOI18N
         jLabel18.setText("Booked Date:");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -186,45 +203,50 @@ public class GUIDemo extends javax.swing.JFrame {
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(79, 79, 79)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addComponent(carID)
-                        .addComponent(fuelType)
-                        .addComponent(carColor)
-                        .addComponent(transmissionType)
-                        .addComponent(batteryWarrenty, javax.swing.GroupLayout.PREFERRED_SIZE, 172, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(purchaseDate, javax.swing.GroupLayout.PREFERRED_SIZE, 172, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(addFuelCar, javax.swing.GroupLayout.PREFERRED_SIZE, 172, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(sellElectricCar, javax.swing.GroupLayout.PREFERRED_SIZE, 172, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(carid)
-                    .addComponent(carcolor)
-                    .addComponent(fueltype)
-                    .addComponent(transmissiontype)
-                    .addComponent(batterywarrenty)
-                    .addComponent(jLabel17))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(79, 79, 79)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                .addComponent(carID)
+                                .addComponent(fuelType)
+                                .addComponent(carColor)
+                                .addComponent(transmissionType)
+                                .addComponent(batteryWarrenty, javax.swing.GroupLayout.PREFERRED_SIZE, 172, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(purchaseDate, javax.swing.GroupLayout.PREFERRED_SIZE, 172, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(carid)
+                            .addComponent(carcolor)
+                            .addComponent(fueltype)
+                            .addComponent(transmissiontype)
+                            .addComponent(batterywarrenty)
+                            .addComponent(jLabel17)))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(addFuelCar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(sellElectricCar, javax.swing.GroupLayout.DEFAULT_SIZE, 171, Short.MAX_VALUE))))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 62, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                        .addComponent(carName, javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(carPrice, javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(noOfSeats, javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(cusName, javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(range, javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(bookedDate, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(addElectricCar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(buyElectricCar, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 172, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(clear, javax.swing.GroupLayout.PREFERRED_SIZE, 180, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(carname)
-                    .addComponent(carprice)
-                    .addComponent(noofseats)
-                    .addComponent(customername)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(6, 6, 6)
-                        .addComponent(ran_ge))
-                    .addComponent(jLabel18))
-                .addGap(56, 56, 56)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addComponent(clear, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(carName)
+                        .addComponent(carPrice)
+                        .addComponent(noOfSeats)
+                        .addComponent(cusName)
+                        .addComponent(range)
+                        .addComponent(bookedDate, javax.swing.GroupLayout.Alignment.TRAILING, 0, 172, Short.MAX_VALUE)
+                        .addComponent(carname)
+                        .addComponent(carprice)
+                        .addComponent(noofseats)
+                        .addComponent(customername)
+                        .addGroup(jPanel1Layout.createSequentialGroup()
+                            .addGap(6, 6, 6)
+                            .addComponent(ran_ge))
+                        .addComponent(jLabel18)
+                        .addComponent(addElectricCar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(buyElectricCar, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 172, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(64, 64, 64)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(rechargetime)
                     .addGroup(jPanel1Layout.createSequentialGroup()
@@ -234,104 +256,106 @@ public class GUIDemo extends javax.swing.JFrame {
                     .addComponent(distributorname)
                     .addComponent(carbrand)
                     .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addComponent(carBrand)
+                        .addComponent(carBrand, javax.swing.GroupLayout.DEFAULT_SIZE, 172, Short.MAX_VALUE)
                         .addComponent(distributorName)
                         .addComponent(mileage)
                         .addComponent(batteryCapacity)
-                        .addComponent(rechargeTime)
-                        .addComponent(purchaseFuelCar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(displayInfo, javax.swing.GroupLayout.PREFERRED_SIZE, 172, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(rechargeTime))
+                    .addComponent(displayInfo, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(purchaseFuelCar, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(79, 79, 79))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGap(28, 28, 28)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(carid)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(carID, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(carcolor)
-                        .addGap(3, 3, 3)
-                        .addComponent(carColor, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(fueltype)
-                        .addGap(5, 5, 5)
-                        .addComponent(fuelType, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(transmissiontype)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(transmissionType, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(13, 13, 13)
-                        .addComponent(batterywarrenty)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(batteryWarrenty, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(8, 8, 8)
-                        .addComponent(jLabel17)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(purchaseDate, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(49, 49, 49)
-                        .addComponent(addFuelCar)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(sellElectricCar))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addComponent(carbrand)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(carBrand, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(carBrand, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(distributorname)
                         .addGap(3, 3, 3)
-                        .addComponent(distributorName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(11, 11, 11)
+                        .addComponent(distributorName, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(mile_age)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(mileage, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(12, 12, 12)
+                        .addComponent(mileage, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(batterycapacity)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(batteryCapacity, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(13, 13, 13)
+                        .addComponent(batteryCapacity, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(rechargetime)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(rechargeTime, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(105, 105, 105)
-                        .addComponent(purchaseFuelCar)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(displayInfo))
+                        .addComponent(rechargeTime, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(carname)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup()
+                                .addComponent(carname)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(carName, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(carprice)
+                                .addGap(3, 3, 3)
+                                .addComponent(carPrice, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(noofseats)
+                                .addGap(5, 5, 5)
+                                .addComponent(noOfSeats, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(customername)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(cusName, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(ran_ge)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(range, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup()
+                                .addComponent(carid)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(carID, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(carcolor)
+                                .addGap(3, 3, 3)
+                                .addComponent(carColor, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(fueltype)
+                                .addGap(5, 5, 5)
+                                .addComponent(fuelType, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(transmissiontype)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(transmissionType, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(batterywarrenty)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(batteryWarrenty)))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(carName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(carprice)
-                        .addGap(3, 3, 3)
-                        .addComponent(carPrice, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(noofseats)
-                        .addGap(5, 5, 5)
-                        .addComponent(noOfSeats, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(customername)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel18)
+                            .addComponent(jLabel17, javax.swing.GroupLayout.Alignment.TRAILING))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(cusName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(13, 13, 13)
-                        .addComponent(ran_ge)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(range, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel18)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(bookedDate, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(49, 49, 49)
-                        .addComponent(addElectricCar)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(buyElectricCar)
-                        .addGap(18, 18, 18)
-                        .addComponent(clear)))
-                .addGap(0, 40, Short.MAX_VALUE))
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(purchaseDate, javax.swing.GroupLayout.DEFAULT_SIZE, 37, Short.MAX_VALUE)
+                            .addComponent(bookedDate))))
+                .addGap(42, 42, 42)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(addFuelCar, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(addElectricCar, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(purchaseFuelCar, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(sellElectricCar, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(buyElectricCar, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(displayInfo, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(clear, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(20, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -365,7 +389,7 @@ public class GUIDemo extends javax.swing.JFrame {
                 }
             }
         }
-        
+
     }//GEN-LAST:event_buyElectricCarActionPerformed
 
     private void clearActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearActionPerformed
@@ -373,7 +397,7 @@ public class GUIDemo extends javax.swing.JFrame {
     }//GEN-LAST:event_clearActionPerformed
 
     private void displayInfoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_displayInfoActionPerformed
- 
+
     }//GEN-LAST:event_displayInfoActionPerformed
 
     private void sellElectricCarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sellElectricCarActionPerformed
@@ -407,25 +431,31 @@ public class GUIDemo extends javax.swing.JFrame {
     }//GEN-LAST:event_addElectricCarActionPerformed
 
     private void purchaseFuelCarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_purchaseFuelCarActionPerformed
-        if(buyElectricCarValidation()){
+        if(purchaseFuelCarValidation()){
             JOptionPane.showMessageDialog(null, "Fileds cannot be left Empty!!!");
         }else{
             if(cars.isEmpty()){
                 JOptionPane.showMessageDialog(null, "No Cars Available at the moment !!");
+                resetAllFields();
                 return;
             }
             for(Car car : cars){
                 if(car.getcarID().equals(getCarId())){
+                    resetAllFields();
                     JOptionPane.showMessageDialog(null, ((FuelCar)car).purchaseFuelCar(getPurchaseDate(), getBookedDate(), getTranmissionType(), getDistributerName()));
                     break;
+                }else{
+                        JOptionPane.showMessageDialog(null, "Car ID did not matched !!");
                 }
             }
-            JOptionPane.showMessageDialog(null, "Sorry !! The Fule car you are buying is out of stock !!");
+        printCarobjects();
+
         }
+        
     }//GEN-LAST:event_purchaseFuelCarActionPerformed
 
     private void addFuelCarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addFuelCarActionPerformed
-        
+
         if(addFuelCarValidation()){
             JOptionPane.showMessageDialog(null, "Fileds cannot be left Empty!!!");
         }else{
@@ -435,7 +465,6 @@ public class GUIDemo extends javax.swing.JFrame {
             resetAllFields();
             JOptionPane.showMessageDialog(null, "Fuel car added successfull!!!");
         }
-
     }//GEN-LAST:event_addFuelCarActionPerformed
 
     public static void main(String args[]) {
@@ -461,7 +490,7 @@ public class GUIDemo extends javax.swing.JFrame {
         return carbrand;
     }
     public String getCarColor(){
-        String carColor = fuelType.getText();
+        String carColor = this.carColor.getText();
         return carColor;
     }
     
@@ -521,6 +550,14 @@ public class GUIDemo extends javax.swing.JFrame {
     }
     
     public boolean addFuelCarValidation(){
+        carcolor.setForeground(Color.black);
+        transmissiontype.setForeground(Color.black);
+        customername.setForeground(Color.black);
+        batterycapacity.setForeground(Color.black);
+        batterywarrenty.setForeground(Color.black);
+        ran_ge.setForeground(Color.black);
+        rechargetime.setForeground(Color.black);
+        distributorname.setForeground(Color.black);
         if(getCarId().equals("") || getCarBrand().equals("") || getCarName().equals("") || getCarPrice().equals("") || getFuelType().equals("") || getSeatNo().equals("") || getMileage().equals("")){
             if(!getCarId().equals("")){
                 carid.setForeground(Color.black);
@@ -564,6 +601,16 @@ public class GUIDemo extends javax.swing.JFrame {
     }
     
     public boolean addElectricCarValidation(){
+        carcolor.setForeground(Color.black);
+        transmissiontype.setForeground(Color.black);
+        customername.setForeground(Color.black);
+        noofseats.setForeground(Color.black);
+        batterywarrenty.setForeground(Color.black);
+        ran_ge.setForeground(Color.black);
+        rechargetime.setForeground(Color.black);
+        fueltype.setForeground(Color.black);
+        distributorname.setForeground(Color.black);
+        
         if(getCarId().equals("") || getCarBrand().equals("") || getCarName().equals("") || getCarPrice().equals("") || getBatteryCapacity().equals("")){
             if(!getCarId().equals("")){
                 carid.setForeground(Color.black);
@@ -596,6 +643,14 @@ public class GUIDemo extends javax.swing.JFrame {
     }
     
     public boolean purchaseFuelCarValidation(){
+        transmissiontype.setForeground(Color.black);
+        customername.setForeground(Color.black);
+        noofseats.setForeground(Color.black);
+        batterywarrenty.setForeground(Color.black);
+        rechargetime.setForeground(Color.black);
+        fueltype.setForeground(Color.black);
+        distributorname.setForeground(Color.black);
+        mile_age.setForeground(Color.black);
         if(getCarId().equals("") || getCarBrand().equals("") || getCarName().equals("") || getCarColor().equals("") || getTranmissionType().equals("") || getDistributerName().equals("") || getPurchaseDate().equals("") || getBookedDate().equals("")){
             if(!getCarId().equals("")){
                 carid.setForeground(Color.black);
@@ -633,6 +688,12 @@ public class GUIDemo extends javax.swing.JFrame {
     }
     
     public boolean buyElectricCarValidation(){
+        transmissiontype.setForeground(Color.black);
+        noofseats.setForeground(Color.black);
+        rechargetime.setForeground(Color.black);
+        fueltype.setForeground(Color.black);
+        distributorname.setForeground(Color.black);
+        mile_age.setForeground(Color.black);
         if(getCarId().equals("") || getCarBrand().equals("") || getCarName().equals("") || getCarPrice().equals("") || getCarColor().equals("") || getCustomerName().equals("") || getBatteryWarranty().equals("") || getRange().equals("") || getRechargeTime().equals("") || getBookedDate().equals("")){
             if(!getCarId().equals("")){
                 carid.setForeground(Color.black);
@@ -669,11 +730,6 @@ public class GUIDemo extends javax.swing.JFrame {
             }else{
                 batterywarrenty.setForeground(Color.red);
             }
-            if(!getBatteryCapacity().equals("")){
-                batterycapacity.setForeground(Color.black);
-            }else{
-                batterycapacity.setForeground(Color.red);
-            }
             if(!getRange().equals("")){
                 ran_ge.setForeground(Color.black);
             }else{
@@ -686,6 +742,20 @@ public class GUIDemo extends javax.swing.JFrame {
     }
     
     public boolean sellElectricCarValidation(){
+        transmissiontype.setForeground(Color.black);
+        customername.setForeground(Color.black);
+        noofseats.setForeground(Color.black);
+        batterywarrenty.setForeground(Color.black);
+        rechargetime.setForeground(Color.black);
+        fueltype.setForeground(Color.black);
+        distributorname.setForeground(Color.black);
+        mile_age.setForeground(Color.black);
+        carname.setForeground(Color.black);
+        carbrand.setForeground(Color.black);
+        carcolor.setForeground(Color.black);
+        carprice.setForeground(Color.black);
+        batterycapacity.setForeground(Color.black);
+        
         if(getCarId().equals("") || getCustomerName().equals("")){
             if(!getCarId().equals("")){
                 carid.setForeground(Color.black);
@@ -733,6 +803,12 @@ public class GUIDemo extends javax.swing.JFrame {
         ran_ge.setForeground(Color.black);
         rechargeTime.setText("");
         rechargetime.setForeground(Color.black);
+    }
+    
+    public void printCarobjects(){
+        for(Car car : cars){
+            ((FuelCar)car).display();
+        }
     }
     
     // Variables declaration - do not modify//GEN-BEGIN:variables

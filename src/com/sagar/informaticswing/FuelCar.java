@@ -60,14 +60,27 @@ public class FuelCar extends Car {
     
     public String purchaseFuelCar(String purchaseDate, String bookedDate, String transmissionType, String distributorName){
         if(isPurchased == false){
-            return "This car is already been purchased";
-        }else {
             this.setDistributerName(distributorName);
             this.setBookedDate(bookedDate);
             this.setPurchaseDate(purchaseDate);
             this.setTransmissionType(transmissionType);
             this.isPurchased = true;
+            return "Purchased Successfull!!!";
         }
-        return "Congratulation !! Your Purchase to the fule car is successfull !!";
+        return "Already Been Purchased !!";
+    }
+    
+    public void display(){
+        super.display();
+        if(isPurchased == true)
+        { 
+            System.out.println("DistributorName is:"+distributorName);
+            System.out.println("FuelType is:"+fuelType);
+            System.out.println("PurchaseDate is:"+purchaseDate);
+            System.out.println("BookedDate is:"+bookedDate);
+            System.out.println("Mileage is:"+mileage);
+            System.out.println("NumberOfSeats is:"+numberOfSeats);
+            System.out.println("TransmissionType is:"+transmissionType);
+        }
     }
 }
